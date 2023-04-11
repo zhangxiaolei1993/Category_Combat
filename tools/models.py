@@ -7,7 +7,7 @@ Created on Wed Mar  8 11:24:35 2023
 import os
 import numpy.linalg as la
 
-os.chdir(r"E:\keyan\github\Category_Combat\Category_Combat")
+# os.chdir(r"E:\keyan\github\Category_Combat\Category_Combat")
 from standardize_across_features import Location_scale_model 
 from bayesain_procession import Bayesian_process 
 def aa():
