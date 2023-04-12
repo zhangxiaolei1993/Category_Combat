@@ -40,3 +40,7 @@ Returns
 -------
 - A numpy array with the same shape as `dat` which has now been Category_ComBat-harmonized
 """
+
+![说明书附图5](https://user-images.githubusercontent.com/126137162/231396651-17b1e989-f3d1-417d-8fe1-0c11405f3c33.png)
+
+
