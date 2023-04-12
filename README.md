@@ -40,6 +40,14 @@ Returns
 -------
 - A numpy array with the same shape as `dat` which has now been Category_ComBat-harmonized
 """
+Detailed instructions are as follows：
+....................to be continued
+
+
+
+UPDATE 10-April-2023.
+In order to facilitate non-professionals to use our radiomics multicenter coordination algorithm, we wrote a UI interface for our program. The specific UI interface instructions are as follows:
+...................to be continued
 
 ![说明书附图5](https://user-images.githubusercontent.com/126137162/231396651-17b1e989-f3d1-417d-8fe1-0c11405f3c33.png)
 
