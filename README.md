@@ -46,11 +46,9 @@ Returns
 
 Detailed instructions are as follows：
 ....................to be continued
-
-   
+ 
 Usage
 -------
-open the main.py and run this:
   if __name__ == "__main__":
       #parameter settings
       parameter_dict = {}
