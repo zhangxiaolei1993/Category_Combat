@@ -50,8 +50,7 @@ Detailed instructions are as follows：
 Usage
 -------
 
-''''''
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     parameter_dict = {}
     parameter_dict['batch_col'] = ['center_name']
     parameter_dict['reserve_cols'] = []
@@ -69,7 +68,7 @@ if __name__ == "__main__":
     dat = data.T
     bayesdata = models.Category_Combat(covars,parameter_dict,dat)
     
-''''''
+
 
 Interface（UI）
 -------
