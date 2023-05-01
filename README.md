@@ -73,8 +73,17 @@ if __name__ == "__main__":
 
 Interface（UI）
 -------
-UPDATE 10-April-2023.
+##UPDATE 10-April-2023.
 In order to facilitate non-professionals to use our radiomics multicenter coordination algorithm, we wrote a UI interface for our program. The specific UI interface instructions are as follows:
+##Environment build
+PySide2                       5.15.2.1
+pyradiomics                   3.0.1
+numpy                         1.21.5
+pandas                        1.3.5
+qtmodern                      0.2.0
+PyQt5                         5.10.1
+
+##
 
 ...................to be continued
 
