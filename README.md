@@ -1,3 +1,6 @@
+# Install
+  Building pip install application
+
 # Category_Combat
 This is a NEW algorithm we developed to solve multicentric problems with radiomic Features,
 """
@@ -43,6 +46,10 @@ Returns
 
 Detailed instructions are as follows：
 ....................to be continued
+
+
+
+
 
 
 Interface（UI）
