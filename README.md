@@ -51,8 +51,9 @@ Detailed instructions are as follows：
 Usage
 -------
 open the main.py and run this:
-if __name__ == "__main__":
+----
 
+if __name__ == "__main__":
     #parameter settings
     parameter_dict = {}
     parameter_dict['batch_col'] = ['center_name']
