@@ -47,7 +47,33 @@ Returns
 Detailed instructions are as follows：
 ....................to be continued
 
+   
+Usage
+-------
+open the main.py and run this:
+if __name__ == "__main__":
 
+    #parameter settings
+    parameter_dict = {}
+    parameter_dict['batch_col'] = ['center_name']
+    parameter_dict['reserve_cols'] = []
+    parameter_dict['remove_cols'] =[]
+    parameter_dict['event_col'] = ['Category']
+    parameter_dict['mean_method'] = ['event']
+    parameter_dict['discretization_coefficient'] = [1]
+    parameter_dict['eb'] = True
+    parameter_dict['parametric'] = True
+    parameter_dict['mean_only'] = False
+    
+    #Read the parameter file of the radiomics data
+    covars =  pd.read_csv('.\data\\parameter.csv')
+    #Read the radiomics data
+    data = pd.read_csv('.\data\\radiomics_demo.csv')
+    
+    #Data transpose
+    dat = data.T
+    bayesdata = models.Category_Combat(covars,parameter_dict,dat)
+    
 
 
 
