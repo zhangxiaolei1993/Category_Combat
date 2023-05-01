@@ -1,5 +1,8 @@
-# Install
-  Building pip install application
+# Install  
+This program currently relies on the python environment, and the specific environment configuration is as follows:  
+The program library can be directly downloaded and used  
+
+Building pip install application.........
 
 # Category_Combat
 This is a NEW algorithm we developed to solve multicentric problems with radiomic Features,
