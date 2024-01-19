@@ -6,7 +6,7 @@
 @File    : MySignals.py
 @Software: PyCharm
 '''
-from PyQt5.QtCore import Signal, QObject
+from PySide2.QtCore import Signal, QObject
 
 class MySignals(QObject):
     print_signal = Signal(str)

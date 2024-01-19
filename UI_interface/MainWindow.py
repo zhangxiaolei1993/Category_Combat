@@ -6,8 +6,8 @@
 @File    : MainWindow.py
 @Software: PyCharm
 '''
-from PyQt5.QtWidgets import QWidget, QFileDialog, QMessageBox
-from PyQt5.QtGui import QPixmap, QIcon
+from PySide2.QtWidgets import QWidget, QFileDialog, QMessageBox
+from PySide2.QtGui import QPixmap, QIcon
 from ui.ui_MainWindow import Ui_Form
 import os
 import pandas as pd
@@ -38,7 +38,6 @@ class MainWindow(QWidget, Ui_Form,):
 
     def initUI(self):
         self.setWindowIcon(QIcon('./texture/icon.png'))
-        self.label_9.setPixmap(QPixmap('./texture/icon.png').scaled(self.label.width(), self.label_9.height()))  # 中间的图标
         self.pushButton.clicked.connect(self.readCsv1)  # 导入文件（获取条件）
         self.pushButton_2.clicked.connect(self.readCsv2)  # （放射组学）
         self.pushButton_3.clicked.connect(self.run)  # 运行
@@ -47,6 +46,9 @@ class MainWindow(QWidget, Ui_Form,):
         self.comboBox_2.addItems(['True', 'False'])
         self.comboBox_3.addItems(['True', 'False'])
         self.comboBox_4.addItems([str(i/10) for i in range(1, 11)])
+
+    def showEvent(self, event):
+        self.label_9.setPixmap(QPixmap('./texture/icon.png').scaled(self.label_9.width(), self.label_9.height()))  # 中间的图标
 
     def run(self):
         self.readLines()

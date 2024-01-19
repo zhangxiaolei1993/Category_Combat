@@ -6,8 +6,8 @@
 @File    : main.py
 @Software: PyCharm
 '''
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QIcon
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QIcon
 from MainWindow import MainWindow
 from MySignals import MySignals
 import qtmodern.styles

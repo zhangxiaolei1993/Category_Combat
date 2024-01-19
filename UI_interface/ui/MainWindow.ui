@@ -11,9 +11,9 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>影像组学多中心协调软件 V.1.0</string>
+   <string>Radiomics Multicenter Coordination Software:“Category-Combat” V.1.1</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout_2" rowstretch="5,0,5" columnstretch="5,0,5">
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="5,2,5" columnstretch="5,2,5">
    <item row="0" column="1">
     <spacer name="horizontalSpacer">
      <property name="orientation">
@@ -43,15 +43,15 @@
    <item row="0" column="2">
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
-      <string>参数选择</string>
+      <string>Parameter Selection</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_5">
           <property name="text">
-           <string>均值化</string>
+           <string>Averaging</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -64,11 +64,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_6">
           <property name="text">
-           <string>贝叶斯</string>
+           <string>Bayesian Process</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -81,11 +81,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_7">
           <property name="text">
-           <string>参数化</string>
+           <string>Parameter Estimation</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -98,11 +98,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_8">
           <property name="text">
-           <string>类被系数</string>
+           <string>Distribution Coefficient</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -133,7 +133,7 @@
    <item row="2" column="2">
     <widget class="QGroupBox" name="groupBox_4">
      <property name="title">
-      <string>输出窗口</string>
+      <string>Output</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
@@ -145,15 +145,15 @@
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>输入信息</string>
+      <string>Input Infomation</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5">
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>特征名称</string>
+           <string>Center Name</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -173,11 +173,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>特征保留</string>
+           <string>Retained Characteristics</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -190,11 +190,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_3">
           <property name="text">
-           <string>特征移除</string>
+           <string>Systematic Factors</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -207,11 +207,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="3,7">
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="5,5">
         <item>
          <widget class="QLabel" name="label_4">
           <property name="text">
-           <string>特征类别</string>
+           <string>Category Name</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -246,7 +246,7 @@
    <item row="1" column="1">
     <widget class="QLabel" name="label_9">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -259,7 +259,7 @@
    <item row="2" column="0">
     <widget class="QGroupBox" name="groupBox_3">
      <property name="title">
-      <string>导入文件</string>
+      <string>Import Files</string>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_15">
       <item>
@@ -275,7 +275,7 @@
              </sizepolicy>
             </property>
             <property name="text">
-             <string>获取条件</string>
+             <string>Image Conditions</string>
             </property>
            </widget>
           </item>
@@ -292,7 +292,7 @@
              </sizepolicy>
             </property>
             <property name="text">
-             <string>放射组学</string>
+             <string>Radiomics Features</string>
             </property>
            </widget>
           </item>
@@ -313,7 +313,7 @@
              </sizepolicy>
             </property>
             <property name="text">
-             <string>运行</string>
+             <string>Run</string>
             </property>
            </widget>
           </item>
@@ -330,7 +330,7 @@
              </sizepolicy>
             </property>
             <property name="text">
-             <string>退出</string>
+             <string>Exit</string>
             </property>
            </widget>
           </item>
