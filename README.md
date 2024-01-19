@@ -89,8 +89,20 @@ PyQt5                         5.10.1
 
 ##
 
-...................to be continued
 
+Chinese version UI
 ![说明书附图5](https://user-images.githubusercontent.com/126137162/231396651-17b1e989-f3d1-417d-8fe1-0c11405f3c33.png)
+
+##
+Englishi Version UI
+![Fig 3-3](https://github.com/zhangxiaolei1993/Category_Combat/assets/126137162/493eff9d-f450-48fe-a9c5-cca73c73b156)
+
+
+
+
+
+
+
+
 
 
